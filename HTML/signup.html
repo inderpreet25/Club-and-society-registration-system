@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup - Futuristic College</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header><div class="header-container"><h1>Signup</h1></div></header>
+    <div class="form-container">
+        <form id="signupForm">
+            <h2>Join Us</h2>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="text" id="userid" placeholder="User ID" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <select id="club" required>
+                <option value="" disabled selected>Select a Club</option>
+                <option value="ncc">NCC</option>
+                <option value="nss">NSS</option>
+                <option value="debate">Debate Club</option>
+                <option value="coding">Coding</option>
+            </select>
+            <button type="submit">Signup</button>
+            <p>Already a member? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+    <footer><p><a href="support.html">Need Help?</a></p></footer>
+</body>
+</html>
