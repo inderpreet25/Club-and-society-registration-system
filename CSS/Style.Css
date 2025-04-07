@@ -1,0 +1,101 @@
+body {
+    /* background: linear-gradient(to right, #9dbde4, #74acdc); */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    /* background-color: rgba(221, 223, 227, 0.2); */
+  }
+ 
+  
+  /* Header */
+  header {
+    width: 100%;
+    background-color: rgb(105, 105, 233);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(189, 210, 239, 0.1);
+  }
+  
+  .header-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background: rgba(102, 121, 246, 0.361);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    margin: 40px auto;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Form Title */
+  form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color:black;
+  }
+  #login{
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  
+  /* Inputs */
+  input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border: 2px solid #09406f;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #09406f;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #9fb8f0;
+    color:black;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  
+  
