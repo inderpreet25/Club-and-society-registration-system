@@ -1,0 +1,62 @@
+/*nss page*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-container h1 {
+  font-size: 2rem;
+}
+
+/* Main Content */
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004080;
+  color: white;
+  margin-top: 40px;
+}
+
