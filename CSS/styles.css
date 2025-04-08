@@ -176,5 +176,37 @@ body {
   .club-img {
     width: 100%;
     max-height: 300px;
+<<<<<<< HEAD
     object-fit
   }
+=======
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.club-info {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+
+
+
+>>>>>>> 9d3aaa9c613e4c9c904664ed2a8eb2ee1cf7789e
