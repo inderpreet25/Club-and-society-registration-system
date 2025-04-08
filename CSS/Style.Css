@@ -86,15 +86,15 @@ body {
   
   /* Footer */
   footer {
-    margin-top: auto;
+    margin-top: 40px;
     padding: 20px;
     text-align: center;
-    font-size: 0.9rem;
+    
   }
   
   footer a {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
 
