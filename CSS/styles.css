@@ -40,3 +40,155 @@ nav a:hover {
 }
 
 /* Slideshow */
+.slideshow {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+/* Clubs Section */
+.clubs {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.clubs h2 {
+    font-size: 5cqb;
+    color: #2a7b98;
+}
+
+.club-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.club-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.club-card:hover {
+    transform: translateY(-10px);
+}
+
+.club-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.club-card a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #2a5298;
+    font-weight: 600;
+}
+
+/* Forms */
+.form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #2a5298;
+    margin-bottom: 20px;
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background: #1e3c72;
+}
+
+/* Club Pages */
+.club-page {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.club-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.club-info {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffdd57;
+    text-decoration: none;
+}
