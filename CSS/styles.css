@@ -1,212 +1,164 @@
+
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-    color: #444;
-  }
-  
-  header {
-    background: linear-gradient(135deg, #3498db, #2ecc71);
-    color: white;
-    padding: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    animation: header-animation 2s ease-in-out infinite;
-  }
-  
-  @keyframes header-animation {
-    0% {
-      background: linear-gradient(135deg, #3498db, #2ecc71);
-    }
-    50% {
-      background: linear-gradient(135deg, #2ecc71, #3498db);
-    }
-    100% {
-      background: linear-gradient(135deg, #3498db, #2ecc71);
-    }
-  }
-  
-  .header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-  
-  .logo {
-    width: 80px;
-    border-radius: 50%;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
-  
-  nav a:hover {
-    color: #f1c40f;
-  }
-  
-  .slideshow {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-  }
-  
-  .slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .slide.active {
-    opacity: 1;
-  }
-  
-  .slide-text {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1.5em;
-  }
-  
-  .clubs {
-    max-width: 1200px;
-    margin: 40px auto;
-    text-align: center;
-  }
-  
-  .clubs h2 {
-    font-size: 36px;
-    color: #2ecc71;
-  }
-  
-  .club-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .club-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .club-card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .club-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .club-card a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #2ecc71;
-    font-weight: 600;
-  }
-  
-  .form-container {
-    max-width: 400px;
-    margin: 40px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .form-container h2 {
-    color: #2ecc71;
-    margin-bottom: 20px;
-  }
-  
-  .form-container input, .form-container select {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
-  }
-  
-  .form-container button {
-    width: 100%;
-    padding: 12px;
-    background: #2ecc71;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .form-container button:hover {
-    background: #1abc9c;
-  }
-  
-  .club-page {
-    max-width: 800px;
-    margin: 40px auto;
-    text-align: center;
-  }
-  
-  .club-img {
-    width: 100%;
-    max-height: 300px;
-<<<<<<< HEAD
-    object-fit
-  }
-=======
-    object-fit: cover;
-    border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-.club-info {
-    padding: 20px;
-    background: white;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+header {
+  background: linear-gradient(135deg, #2f4f7f, #2f4f7f);
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
-footer a {
-    color: #ffdd57;
-    text-decoration: none;
+.logo {
+  width: 80px;
+  border-radius: 50%;
 }
 
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
 
+nav a:hover {
+  color: #8b9467;
+}
 
+.slideshow {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
 
->>>>>>> 9d3aaa9c613e4c9c904664ed2a8eb2ee1cf7789e
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(139, 148, 103, 0.6);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+.clubs {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  color: #333;
+}
+
+.clubs h2 {
+  font-size: 36px;
+  color: #2f4f7f;
+}
+
+.club-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.club-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.club-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.club-card a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #8b9467;
+  font-weight: 600;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  color: #2f4f7f;
+  margin-bottom: 20px;
+}
+
+.form-container input, .form-container select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background: #8b9467;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-container button:hover {
+  background: #6c704d;
+}
+
+.club-page {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  color: #333;
+}
+
+.club-img {
+  width: 100%;
+  max-height: 300px;
+}
+
